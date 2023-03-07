@@ -1,0 +1,58 @@
+
+.itsoft-header-top {
+    padding: 11px 0;
+    background: #252628;
+    position: relative;
+    z-index: 1;
+}
+
+.itsoft-header-top::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 54%;
+    height: 100%;
+    z-index: -1;
+    transform: skew(-26deg);
+    padding-left: 20px;
+    background: #FF3C00;
+}
+
+.itsoft-header-top .top-address {}
+
+.top-address p {
+    margin-bottom: 0;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.top-address p a {
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.top-address p a, .top-address p span {
+   
+}
+
+ .top-address p a, .top-address p span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.top-address p span i, .top-address p a i {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.{}
+.{}
+.{}
+.{}
+.{}
