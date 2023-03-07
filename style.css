@@ -97,12 +97,127 @@
 }
 /* TOP RIGHT MENU END */
 
-.{}
-.{}
-.{}
-.{}
-.{}
-
   /*==================================*/
  /* ITSOFT HEADER TOP END */
+/*==================================*/ 
+
+
+  /*==================================*/
+ /* ITSOFT MAIN MENU START */
+/*==================================*/
+
+
+.itsoft_menu {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.itsoft_menu ul {
+    display: inline-block;
+}
+
+.itsoft_menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.itsoft_menu ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.5s;
+}
+
+.itsoft_menu ul li a:hover {
+    color: #DE2C2C;
+}
+
+.itsoft_menu ul li a span {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 5px 0px 0px;
+}
+
+.current {
+    margin: 0px 15px 0px 0;
+}
+.current a span, .current .svg-inline--fa.fa-angle-down.fa-w-10{
+    color: #DE2C2C;
+}
+
+.dropdwon {
+    margin: 0 15px 0 15px;
+}
+
+.dropdwon a {
+    padding: 39px 0 39px 0;
+}
+
+.mega-menu-wrap {
+    display: inline-block;
+}
+
+.mega-menu-wrap ul {
+    margin: 0;
+}
+
+.header-right-content {
+    display: inline-block;
+}
+
+.header-right-content li {
+    display: inline-block;
+    list-style: none;
+}
+
+.header-right-content li a i {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+
+.donate-btn-header {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.donate-btn-header a {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.donate-btn-header a.dtbtn {
+    background: #FF3C00;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 11px 24px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+    border: 2px solid #FF3C00;
+}
+
+.donate-btn-header a.dtbtn:hover {
+    background: #bd2d10;
+    color: #fff;
+    border-color: #bd2d10;
+}
+
+.itsoft_nav_area {
+    padding: 25px 0;
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+
+  /*==================================*/
+ /* ITSOFT MAIN MENU START */
 /*==================================*/
