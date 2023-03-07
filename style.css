@@ -1,4 +1,11 @@
 
+
+
+  /*==================================*/
+ /* ITSOFT HEADER TOP START */
+/*==================================*/
+
+/* TOP ADDRESS START */
 .itsoft-header-top {
     padding: 11px 0;
     background: #252628;
@@ -36,23 +43,66 @@
 }
 
 .top-address p a, .top-address p span {
-   
-}
-
- .top-address p a, .top-address p span {
     color: #fff;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     margin-right: 20px;
 }
 
 .top-address p span i, .top-address p a i {
-    font-size: 15px;
+    position: relative;
     margin-right: 10px;
+    top: 4px;
+    font-size: 20px;
 }
+/* TOP ADDRESS END */
+
+
+/* TOP RIGHT MENU START */
+.top-right-menu ul.social-icons {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right-menu ul.social-icons li {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+.top-right-menu ul.social-icons li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.social-icons li a {}
+.social-icons li a i {
+    display: inline-block;
+    font-family: boxicons!important;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.social-icon {}
+
+.bx {
+    font-weight: ;
+}
+/* TOP RIGHT MENU END */
 
 .{}
 .{}
 .{}
 .{}
 .{}
+
+  /*==================================*/
+ /* ITSOFT HEADER TOP END */
+/*==================================*/
