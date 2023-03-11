@@ -1,5 +1,7 @@
 
-
+body {
+    overflow-y: overlay;
+}
 
   /*==================================*/
  /* ITSOFT HEADER TOP START */
@@ -42,16 +44,23 @@
     transition: all 0.2s ease-in-out;
 }
 
-.top-address p a, .top-address p span {
+.top-address p a {
     color: #fff;
     font-size: 15px;
     font-weight: 500;
     margin-right: 20px;
 }
 
+.top-address p span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .top-address p span i, .top-address p a i {
     position: relative;
     margin-right: 10px;
+    left: 0;
     top: 4px;
     font-size: 20px;
 }
@@ -92,9 +101,6 @@
 
 .social-icon {}
 
-.bx {
-    font-weight: ;
-}
 /* TOP RIGHT MENU END */
 
   /*==================================*/
@@ -106,11 +112,15 @@
  /* ITSOFT MAIN MENU START */
 /*==================================*/
 
+.itsoft_nav_area {
+    padding: 25px 0;
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+}
 
 .itsoft_menu {
-    display: inline-block;
-    position: relative;
-    top: 3px;
+    text-align: left;
 }
 
 .itsoft_menu ul {
@@ -133,15 +143,22 @@
 }
 
 .itsoft_menu ul li a span {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
     font-weight: 400;
-    padding: 0 5px 0px 0px;
 }
 
 .current {
     margin: 0px 15px 0px 0;
 }
-.current a span, .current .svg-inline--fa.fa-angle-down.fa-w-10{
+.current i {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    top: 0;
+    left: 5px;
+}
+.current a span, .current i{
     color: #DE2C2C;
 }
 
@@ -150,7 +167,7 @@
 }
 
 .dropdwon a {
-    padding: 39px 0 39px 0;
+    
 }
 
 .mega-menu-wrap {
@@ -159,24 +176,23 @@
 
 .mega-menu-wrap ul {
     margin: 0;
+    padding: 0 50px 0 0;
 }
 
-.header-right-content {
-    display: inline-block;
+
+.header_right_btn {
+    text-align: right;
 }
 
-.header-right-content li {
+.header_right_btn ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header_right_btn ul li {
     display: inline-block;
     list-style: none;
 }
-
-.header-right-content li a i {
-    position: relative;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-
 
 .donate-btn-header {
     display: inline-block;
@@ -210,13 +226,32 @@
     border-color: #bd2d10;
 }
 
-.itsoft_nav_area {
-    padding: 25px 0;
-    background: #ffffff;
-    position: relative;
-    z-index: 1;
+.nav-btn {
+    width: 40px;
+    height: 40px;
+    text-align: right;
 }
 
+.nav-btn a {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    font-family: boxicons!important;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-btn a i {
+    display: inline-block;
+    color: #252628;
+}
 
   /*==================================*/
  /* ITSOFT MAIN MENU START */
